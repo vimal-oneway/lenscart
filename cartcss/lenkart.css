@@ -1,0 +1,187 @@
+body{
+    background-color: pink;
+}
+#top{
+    background-color: gray;
+    margin: 20px;
+    padding: 30px;
+    height: 100px;
+}
+#top img{
+    float: left;
+    padding-right: 50px;
+    padding-top: 23px;
+    width: 250px;
+}
+.ul a{
+color: black;
+font-size: 20px;
+}
+span a{
+    color: black;
+    font-size: 20px;
+}
+#top ul li{
+    color: black;
+    display: inline;
+    padding-right: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+#top li :hover {
+    color: aqua;
+   
+}
+#top span{
+    float: right;
+    font-size: large;
+    font-weight: bold;
+}
+#top span :hover {
+    color: aqua;
+    font-size: larger;
+}
+#search{
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#lable{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-transform: capitalize;
+
+}
+.welcome{
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.welcome p{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+#content{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100px;
+  background-color: pink;
+  border: 2px dotted black;
+  margin-bottom: 30px;
+}
+  
+#content img{
+  margin: 10px 20px;
+  padding-top: 70px;
+  padding-left: 70px;
+    width: 350px;
+    float: left;
+    
+    
+}
+.information{
+    margin: 50px ;
+    padding: 100px;
+    padding-left: 100px;
+}
+.information button{
+    background-color: blue;
+    margin: 30px;
+    padding: 15px;
+    color: wheat;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.information button:hover{
+    background-color: black;
+}
+
+.footer{
+    background-color: rgb(66, 47, 153);
+    margin-top: 30px;
+
+    padding: 30px;
+}
+.service li{
+    margin-bottom:  20px;
+    color:pink;
+}
+.service a{
+    color: white;
+    font-size: 17px;
+}
+.service{
+    float: left;
+    padding-right: 100px;
+}
+.about li{
+    margin-bottom: 17px;
+    color:pink;
+
+}
+.about a {
+    color: white;
+    font-size: 17px;
+}
+.about{
+    float: left;
+    padding-right: 100px;
+}
+.help li{
+margin-bottom: 17px;
+color:pink;
+}
+.help a{
+    color:white;
+    font-size: 17px;
+
+}
+.help{
+    float: left;
+}
+.footer hr{
+    clear: both;
+    
+}
+.stores{
+    color: white;
+    margin-top: 40px;
+    margin-right: 50p;
+    float: right;
+    background-color: rgb(31, 42, 53); 
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.end a{
+    padding-right: 40px;
+    padding-top: 30px;
+    color:white;
+}
+.final{
+    float: right;
+    color:white;
+    margin-right: 90px;
+
+}
+.final a{
+
+    color: white;
+    padding-left: 20px;
+   
+}
+#follow{
+    padding-right: 30px;
+}
+@media screen and (max-width:900px) {
+    body {
+        background-color: aqua;
+    }
+}
